@@ -13,7 +13,7 @@ public class P1_ProjectAppVWO_InvalidCase {
 
 
     @Description("TC#1 - Verify that with invalid login, error message is displayed!")
-    @Owner("Pramod Dutta")
+    @Owner("Kavya")
     @Test
     public void test_vwo_login_invalid_login() {
 
