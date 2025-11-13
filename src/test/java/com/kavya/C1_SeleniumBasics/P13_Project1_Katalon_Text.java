@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class P13_Project1 {
+public class P13_Project1_Katalon_Text {
 
     @Description("TC#1 - Verify that a particular text exists on the Katalon website ")
     @Test

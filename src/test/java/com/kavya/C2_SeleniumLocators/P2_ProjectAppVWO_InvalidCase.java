@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class P2_ProjectAppVWO {
+public class P2_ProjectAppVWO_InvalidCase {
     @Description("TC#1 - Verify that with invalid login, error message is displayed!")
     @Owner("Kavya")
     @Test
