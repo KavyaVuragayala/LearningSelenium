@@ -19,13 +19,16 @@ public class P3_ProjectAppVWO_Case2 {
         driver.manage().window().maximize();
         driver.get("https://app.vwo.com");
 
+
+        // ************ checking start your trail is working or not ***************************
+
         driver.findElement(By.partialLinkText("trial")).click();
         //driver.findElement(By.linkText("Start your free trial")).click();
 
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
-            System.out.println(e.getMessage()); ;
+            System.out.println(e.getMessage());
         }
 
         driver.findElement(By.id("page-v1-step1-email")).sendKeys("abc");
