@@ -52,5 +52,7 @@ public class P2_Advanced {
 
             }
         }
+
+        driver.close();
     }
 }
